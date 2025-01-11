@@ -2,12 +2,6 @@
 
 @section('content')
 
-{{-- @if(@session('success'))
-    <div class="alert alert-success" role="alert">
-        <strong>Data has been deleted</strong>
-    </div>
-@endif --}}
-
 @if(session('create-success'))
     <div class="alert alert-success" role="alert">
         <strong>{{ session('create-success') }}</strong>
